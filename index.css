@@ -1,0 +1,45 @@
+#navbar{
+    position: fixed;
+    padding:20px;
+    width:100%;
+    left:0;
+    top:0;
+    background-color: aqua;
+    text-align: center;
+}
+#check{
+    display:flex;
+    margin-top: 100px;
+    gap: 10%;
+}
+#check1{
+    width:50%;
+    margin-left: 20px;
+}
+#check2{
+    height:500px;
+    width:30%;
+    margin-right: 20px;
+}
+b{
+    color:blue
+}
+#container1{
+    width:80%;
+    height:auto;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+#container1>div{
+    width:18%;
+    height: 100%;
+    background-color: rgb(66, 64, 64);
+    border-radius: 5%;
+}
+#container1>div>p{
+    font-size: 25px;
+    color: antiquewhite;
+}
